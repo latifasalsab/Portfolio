@@ -610,39 +610,6 @@ header {
     color: var(--body-color);
 }
 
-/* ======= TESTIMONIAL ======= */
-.testimonial__card {
-    background-color: var(--container-color);
-    padding: 1.25rem 1.5rem;
-    border-radius: 1.5rem;
-    margin-bottom: 3rem;
-}
-
-.testimonial__img {
-    width: 60px;
-    border-radius: 3rem;
-    margin-bottom: 1rem;
-}
-
-.testimonial__name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    margin-bottom: .25rem;
-}
-
-.testimonial__description {
-    font-size: var(--small-font-size);
-}
-
-/* swiper class */
-.swiper-pagination-bullet {
-    background-color: var(--text-color-light);
-}
-
-.swiper-pagination-bullet-active {
-    background-color: var(--first-color);
-}
-
 /* ======= CONTACT ======= */
 .contact__container {
     row-gap: 3rem;
@@ -1069,6 +1036,4 @@ body.light-theme {
     .services__card {
         padding: 5rem 2rem 1.5rem;
     }
-
-    
 }
